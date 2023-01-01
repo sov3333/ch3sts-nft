@@ -1,0 +1,30 @@
+{
+  "name": "ch3sts-nft",
+  "version": "1.0.0",
+  "description": "## Basic project setup https://docs.opensea.io/docs/setting-up-your-smart-contract-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sov3333/erc721-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sov3333/erc721-template/issues"
+  },
+  "homepage": "https://github.com/sov3333/erc721-template#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2",
+    "node-fetch": "^2.6.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
